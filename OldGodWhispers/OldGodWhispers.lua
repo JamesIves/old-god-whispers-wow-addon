@@ -37,7 +37,6 @@ local function PlaySounds(click)
   local availableSounds = {2494907, 2494908, 2494909, 2494910, 2494911, 2494912, 2494913, 2494914, 2494915, 2494916}
 
   if OldGodWhispersDatabase['cthunEnabled'] == true then
-      print('merging tables I think')
       for k, v in pairs(CthunSounds) do
           table.insert(availableSounds, v)
       end
