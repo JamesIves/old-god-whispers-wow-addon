@@ -17,40 +17,17 @@ You can learn how to install WoW addons by following [this guide](https://www.wo
 
 ## Commands 💻
 
-You can view all of the avilable commands by typing either `/ogw` or `/oldgodwhispers` in the chat.
+You can view all of the available commands by typing either `/ogw` or `/oldgodwhispers` in the chat. All of the commands in the following table can be run by typing `/ogw <command>` or `/oldgodwhispers <command>`.
 
-```
-# Toggles the button.
-/ogw toggle
-/oldgodwhispers toggle
-
-# Gets the status of the addon.
-/ogw status
-/oldgodwhispers status
-
-# Toggles random whisper mode. Random whispers occur every 5 to 30 minutes.
-/ogw random
-/oldgodwhispers random
-
-# Toggles whispers from C'Thun.
-/ogw cthun
-/oldgodwhispers cthun
-
-# Toggles whispers from Ghuun
-/ogw ghuun
-/oldgodwhispers ghuun
-
-# Toggles whispers from N'Zoth
-/ogw nzoth
-/oldgodwhispers nzoth
-
-# Toggles whispers from Il'Gynoth
-/ogw ilgynoth
-/oldgodwhispers ilgynoth
-
-# Toggles whispers from Yogg-Saron
-/ogw yoggsaron
-/oldgodwhispers yoggsaron
-```
+| Command        | Description           | Default  |
+| ------------- |:-------------:| -----:|
+| status      | Shows the current status of the addon, such as which old gods are enabled/disabled.     |  `N/A` |
+| `toggle`      | Toggles the button. | `Enabled` |
+| `random` | Toggles random whisper mode. Random whispers occur every 5 to 30 minutes.  |  `Disabled` |
+| `cthun` | Enables/Disables whispers from C'thun.  |  `Enabled` |
+| `ghuun` | Enables/Disables whispers from G'huun.  |  `Enabled` |
+| `nzoth` | Enables/Disables whispers from N'Zoth.  |  `Enabled` |
+| `ilgynoth` | Enables/Disables whispers from Il'gynoth.  |  `Enabled` |
+| `yoggsaron` | Enables/Disables whispers from Yogg-Saron.  |  `Enabled` |
 
 ![Screenshot](preview.png)
