@@ -1,0 +1,10 @@
+## Interface: 80300
+## Title: Old God Whispers
+## Author: James Ives
+## Version: 0.1
+## URL: https://jamesiv.es
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: OldGodWhispersDatabase
+
+OldGodWhispers.lua
