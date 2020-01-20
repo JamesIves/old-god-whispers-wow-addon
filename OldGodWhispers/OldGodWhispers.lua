@@ -1,3 +1,4 @@
+-- Sound ids for all of the whispers, divided into seperate tables for each old god. --
 local CthunSounds = {
   546633, 546620, 546621, 546623, 546626, 546627, 546628, 546636
 }
@@ -84,7 +85,7 @@ frame:RegisterEvent("PLAYER_LOGOUT")
 frame:SetPoint("Center", 0, 0)
 frame:SetSize(45, 45)
 
--- Makes the frame draggable --
+-- Makes the frame draggable. --
 frame:SetMovable(true)
 frame:EnableMouse(true)
 frame:RegisterForDrag("LeftButton")
@@ -92,9 +93,10 @@ frame:SetScript("OnDragStart", frame.StartMoving)
 frame:SetScript("OnDragStop", frame.StopMovingOrSizing)
 
 local icon = frame:CreateTexture("Texture", "Background")
+-- N'Zoth eyeball texture. --
 icon:SetTexture("3004126")
 
--- Makes the area behind the background invisible --
+-- Makes the area behind the background invisible. --
 icon:SetMask("Interface\\CharacterFrame\\TempPortraitAlphaMask")
 icon:SetAllPoints(frame)
 
