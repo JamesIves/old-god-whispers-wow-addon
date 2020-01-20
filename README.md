@@ -42,3 +42,5 @@ You can view all of the avilable commands by typing either `/ogw` or `/oldgodwhi
 /ogw yoggsaron
 /oldgodwhispers yoggsaron
 ```
+
+![Screenshot](screenshot.png)
