@@ -1,5 +1,5 @@
 # Old God Whispers World of Warcraft Addon 🦑
-Have you ever wanted to hear our lord and saviors maddening whispers on demand? Well now you can. This World of Warcraft addon will display a button on your UI which will allow you to hear whispers from the old gods. You can even enable random mode so you can get the authentic old god experience.
+Have you ever wanted to hear our lord and saviors maddening whispers on demand? Well now you can. This [World of Warcraft](https://worldofwarcraft.com/) addon will display a button on your UI which will allow you to hear whispers from the old gods. You can even enable random mode so you can get the authentic old god experience. This addon does not work with [World of Warcraft Classic](https://worldofwarcraft.com/en-us/wowclassic).
 
 ## Getting Started ✈️
 
