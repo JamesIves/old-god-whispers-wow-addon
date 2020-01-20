@@ -22,7 +22,7 @@ You can view all of the available commands by typing either `/ogw` or `/oldgodwh
 | Command        | Description           | Default  |
 | ------------- |-------------| -----:|
 | status      | Shows the current status of the addon, such as which old gods are enabled/disabled.     |  `N/A` |
-| `toggle`      | Toggles the button. | `Enabled` |
+| `toggle`      | Toggles the button. You can disable the button and still recieve random whispers if random mode is enabled. | `Enabled` |
 | `random` | Toggles random whisper mode. Random whispers occur every 5 to 30 minutes.  |  `Disabled` |
 | `cthun` | Enables/Disables whispers from C'thun.  |  `Enabled` |
 | `ghuun` | Enables/Disables whispers from G'huun.  |  `Enabled` |
