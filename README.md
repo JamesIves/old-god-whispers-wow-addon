@@ -20,7 +20,7 @@ You can learn how to install WoW addons by following [this guide](https://www.wo
 You can view all of the available commands by typing either `/ogw` or `/oldgodwhispers` in the chat. All of the commands in the following table can be run by typing `/ogw <command>` or `/oldgodwhispers <command>`.
 
 | Command        | Description           | Default  |
-| ------------- |:-------------:| -----:|
+| ------------- |-------------| -----:|
 | status      | Shows the current status of the addon, such as which old gods are enabled/disabled.     |  `N/A` |
 | `toggle`      | Toggles the button. | `Enabled` |
 | `random` | Toggles random whisper mode. Random whispers occur every 5 to 30 minutes.  |  `Disabled` |
