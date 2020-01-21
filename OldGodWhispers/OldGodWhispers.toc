@@ -1,7 +1,7 @@
 ## Interface: 80300
 ## Title: Old God Whispers
 ## Author: James Ives
-## Version: 0.1
+## Version: 0.0.2
 ## URL: https://jamesiv.es
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
