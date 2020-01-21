@@ -65,8 +65,11 @@ local function PlaySounds(click)
           table.insert(availableSounds, v)
       end
   end
-
-  PlaySoundFile(availableSounds[math.random(#availableSounds)], "Dialog")
+  
+  -- Prevents random mode from lingering by checking if its true before playing a souns. --
+  if OldGodWhispersDatabase['random'] == true or click == true then
+      PlaySoundFile(availableSounds[math.random(#availableSounds)], "Dialog")
+  end
 
   -- This should only fire if it's a callback from an interval. --
   -- The click arg gets passed as true on all button presses to prevent double firing. --
