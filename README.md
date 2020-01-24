@@ -1,5 +1,5 @@
 # Old God Whispers World of Warcraft Addon 🦑
-[![Version](https://img.shields.io/github/v/release/JamesIves/old-god-whispers-wow-addon.svg?logo=github)](https://github.com/JamesIves/old-god-whispers-wow-addon/releases)
+[![Version](https://img.shields.io/github/v/release/JamesIves/old-god-whispers-wow-addon.svg?logo=github)](https://github.com/JamesIves/old-god-whispers-wow-addon/releases) [![CurseForge](https://cf.way2muchnoise.eu/full_359737_downloads.svg)](https://www.curseforge.com/wow/addons/old-god-whispers)
 
 Have you ever wanted to hear our lord and saviors maddening whispers on demand? Well now you can. This [World of Warcraft](https://worldofwarcraft.com/) addon will display a button on your UI which will allow you to hear whispers from the old gods. You can even enable random mode so you can get the authentic old god experience. This addon does not work with [World of Warcraft Classic](https://worldofwarcraft.com/en-us/wowclassic).
 
