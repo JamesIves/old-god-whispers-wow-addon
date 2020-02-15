@@ -26,11 +26,6 @@ local GhuunSounds = {
   2000113, 2000114, 2000115, 2000119, 2000120, 2000121, 2000149
 }
 
--- Fires a random function on an interval. --
-local function PerformRandom(delay, func)
-  C_Timer.After(delay, func)
-end
-
 -- Plays a random sound depending on what configuration settings are enabled. --
 local function PlaySounds(click)
   -- availableSounds always starts of with a number of shared whispers. --
@@ -74,8 +69,13 @@ local function PlaySounds(click)
   -- This should only fire if it's a callback from an interval. --
   -- The click arg gets passed as true on all button presses to prevent double firing. --
   if OldGodWhispersDatabase['random'] == true and click == nil then
-      PerformRandom(math.random(300, 1800), PlaySounds)
+      PerformRandom()
   end
+end
+
+-- Fires a random function on an interval. --
+local function PerformRandom()
+    C_Timer.After(math.random(300, 1800), PlaySounds)
 end
 
 -- Registers the frame that renders the button in-game. --
@@ -147,7 +147,7 @@ frame:SetScript("OnEvent", function(self, event, arg1)
           frame:Hide()
       end
       if OldGodWhispersDatabase['random'] == true then
-          PerformRandom(math.random(300, 1800), PlaySounds)
+          PerformRandom()
       end
   end
 end)
@@ -165,7 +165,7 @@ local function AvailableCommands(msg)
       OldGodWhispersDatabase['random'] = not OldGodWhispersDatabase['random']
       print("Random Whispers - ", OldGodWhispersDatabase['random'] and "Enabled" or "Disabled")
       if OldGodWhispersDatabase['random'] == true then
-          PerformRandom(math.random(300, 1800), PlaySounds)
+          PerformRandom()
       end
   elseif msg == 'cthun' then
       OldGodWhispersDatabase['cthunEnabled'] = not OldGodWhispersDatabase['cthunEnabled']
